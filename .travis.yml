@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: "akvar-learning"
+  api_key:
+    secure: "da38ecfd-cfd4-43d4-b640-9e05d655fb3c"
